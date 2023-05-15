@@ -1,0 +1,9 @@
+{
+    "id": "unique-request-id",
+    "jsonrpc": "2.0",
+    "result": {
+        "height": 766,
+        "randomNodeHeight": 765,
+        "randomNodeIp": "127.0.0.1"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "id": "unique-request-id",
+    "jsonrpc": "2.0",
+    "result": {
+        "total": 0,
+        "limit": 100,
+        "offset": 0,
+        "data": []
+    }
+}

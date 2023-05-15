@@ -1,0 +1,266 @@
+html {
+    @apply min-h-full bg-white;
+}
+
+body {
+    @apply font-sans text-theme-secondary-700;
+}
+
+/* Footer bottom fix */
+#app {
+    min-height: calc(100vh - 69px);
+    /* 100vh - footer height */
+}
+
+/* Custom content container */
+.content-container {
+    @apply flex px-8 mx-auto;
+}
+
+@screen sm {
+    .content-container {
+        @apply px-8;
+    }
+}
+
+@screen lg {
+    .content-container {
+        @apply max-w-7xl;
+    }
+}
+
+/* Server Grid */
+.server-grid-table {
+    @apply grid grid-cols-3 gap-6 mt-8;
+}
+
+.server-grid-table > div {
+    @apply border-r border-theme-secondary-300;
+}
+
+.server-grid-table > div:last-child {
+    @apply border-0;
+}
+
+@media (max-width: 1023px) {
+    .server-grid-table > div:nth-of-type(3n + 3) {
+        @apply border-0;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .server-grid-table > div:nth-of-type(4n + 4) {
+        @apply border-0;
+    }
+}
+
+@screen lg {
+    .server-grid-table {
+        @apply grid-cols-4;
+    }
+}
+
+@media (min-width: 1280px) {
+    .server-grid-table > div:nth-of-type(5n + 5) {
+        @apply border-0;
+    }
+}
+
+@screen xl {
+    .server-grid-table {
+        @apply grid-cols-5;
+    }
+}
+
+/* Server Table Mobile */
+.server-table-mobile {
+    @apply w-full;
+}
+.server-table-mobile > div > div {
+    @apply shadow-none;
+}
+
+.notification-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+/* Tables */
+.table-container table thead th {
+    @apply font-semibold text-center;
+}
+.table-container table thead th.text-left {
+    text-align: left;
+}
+.table-container table thead th.text-right {
+    text-align: right;
+}
+.table-container
+    table
+    > tbody
+    > tr
+    > td.hoverable-cell
+    > div.table-cell-content {
+    @apply py-2;
+}
+
+.table-container
+    table
+    > tbody
+    > tr.selected-row
+    > td.hoverable-cell
+    > div.table-cell-bg::before,
+.table-container
+    table
+    > tbody
+    > tr.selected-row
+    > td.hoverable-cell
+    > div.table-cell-bg {
+    @apply bg-theme-success-50;
+}
+
+/* Download Logs modal */
+.download-logs-list li {
+    list-style: circle;
+
+    @apply list-inside;
+}
+
+/** Log Filter */
+.filter-button > div > button {
+    @apply p-0;
+}
+
+.input-text-with-icon:read-only {
+    @apply bg-theme-secondary-100 text-theme-secondary-700;
+}
+
+.listbox-option {
+    @apply relative;
+}
+
+.listbox-option:not(:first-child)::before {
+    content: "";
+    @apply absolute top-0 w-full h-px left-8 bg-theme-secondary-300;
+    width: calc(100% - 4rem);
+}
+
+.primary-button-loading-state:disabled {
+    @apply py-2 bg-theme-primary-100 text-theme-primary-600;
+}
+
+/* Table List */
+.table-list-mobile-row {
+    @apply flex flex-col w-full py-6 space-y-4 border-t border-dashed border-theme-secondary-300;
+}
+
+/* Transforms */
+.flip-horizontally {
+    transform: scaleX(-1);
+}
+
+/* Notification dots */
+.table-container
+    table
+    > tbody
+    > tr:hover
+    > td.hoverable-cell
+    .notification-dot {
+    @apply bg-theme-secondary-100;
+}
+
+.table-container
+    table
+    > tbody
+    > tr[data-danger]
+    > td.hoverable-cell
+    .notification-dot {
+    @apply bg-theme-danger-50;
+}
+.table-container
+    table
+    > tbody
+    > tr[data-danger]:hover
+    > td.hoverable-cell
+    .notification-dot {
+    @apply bg-theme-danger-100;
+}
+
+.table-container
+    table
+    > tbody
+    > tr[data-warning]
+    > td.hoverable-cell
+    .notification-dot {
+    @apply bg-theme-warning-50;
+}
+.table-container
+    table
+    > tbody
+    > tr[data-warning]:hover
+    > td.hoverable-cell
+    .notification-dot {
+    @apply bg-theme-warning-100;
+}
+
+/* Input & Forms */
+.input-checkbox {
+    @apply w-5 h-5 border-2;
+}
+
+.input-radio {
+    @apply w-5 h-5 border-2;
+}
+
+/* Tabs */
+.tab-item:hover:not(:disabled) {
+    @apply text-theme-secondary-900 border-theme-primary-600;
+}
+
+.tab-item:disabled {
+    @apply pointer-events-none text-theme-secondary-500;
+}
+
+.tab-item:disabled:hover {
+    @apply border-transparent;
+}
+
+/* Slider  */
+span.swiper-pagination-bullet-active {
+    @apply text-theme-primary-600;
+}
+
+/** ToS **/
+.terms-of-service ol {
+    @apply mt-3 list-decimal list-inside;
+}
+
+.terms-of-service ol ol {
+    @apply ml-4;
+}
+
+.terms-of-service ol li {
+    @apply mt-1;
+}
+
+.terms-of-service ol.roman {
+    list-style-type: lower-roman;
+}
+
+.terms-of-service--heading {
+    @apply mt-4 text-lg font-semibold;
+}
+
+.terms-of-service p {
+    @apply mt-3;
+}
+
+.chart-configuration-box {
+    @apply focus-visible:ring-0;
+}
+.chart-configuration-box.focus-visible > div {
+    @apply border-3 border-theme-primary-600;
+}

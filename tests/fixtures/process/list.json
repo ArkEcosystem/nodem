@@ -1,0 +1,47 @@
+{
+    "id": "unique-request-id",
+    "jsonrpc": "2.0",
+    "result": [
+        {
+            "pid": 57255,
+            "name": "ark-relay",
+            "pm_id": 1,
+            "monit": {
+                "memory": 109600,
+                "cpu": 0.5
+            },
+            "status": "online"
+        },
+        {
+            "pid": 57255,
+            "name": "pm2-logrotate",
+            "pm_id": 1,
+            "monit": {
+                "memory": 109600,
+                "cpu": 0.5
+            },
+            "version": "2.7.0",
+            "status": "online"
+        },
+        {
+            "pid": 57255,
+            "name": "ark-forger",
+            "pm_id": 2,
+            "monit": {
+                "memory": 109600,
+                "cpu": 0.5
+            },
+            "status": "offline"
+        },
+        {
+            "pid": 57255,
+            "name": "random",
+            "pm_id": 2,
+            "monit": {
+                "memory": 109600,
+                "cpu": 0.5
+            },
+            "status": "offline"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "id": "unique-request-id",
+    "jsonrpc": "2.0",
+    "result": {
+        "remainingTime": 7000
+    }
+}

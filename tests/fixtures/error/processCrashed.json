@@ -1,0 +1,8 @@
+{
+    "error": {
+        "code": -32601,
+        "data": "Error: The method does not exist / is not available. ......",
+        "id": "unique-request-id",
+        "jsonrpc": "2.0"
+    }
+}

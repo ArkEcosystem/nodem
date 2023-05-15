@@ -1,0 +1,8 @@
+{
+    "id": "unique-request-id",
+    "jsonrpc": "2.0",
+    "result": {
+        "name": "manager",
+        "version": "3.0.2"
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "id": "unique-request-id",
+    "jsonrpc": "2.0",
+    "result": {
+        "total": 2000,
+        "limit": 10,
+        "offset": 0,
+        "data": [
+            {
+                "id": 5,
+                "process": "core",
+                "level": "debug",
+                "content": "Connection lost.",
+                "timestamp": 1605708110
+            },
+            {
+                "id": 4,
+                "process": "relay",
+                "level": "info",
+                "content": "Block 3,107,485 pinged blockchain 65 times.",
+                "timestamp": 1605707110
+            },
+            {
+                "id": 3,
+                "process": "relay",
+                "level": "info",
+                "content": "Received new block at height 3,107,486 with 0 transactions from 1.1.1.1",
+                "timestamp": 1605706110
+            },
+            {
+                "id": 2,
+                "process": "core",
+                "level": "debug",
+                "content": "Connection established.",
+                "timestamp": 1605705110
+            },
+            {
+                "id": 1,
+                "process": "core",
+                "level": "info",
+                "content": "Connecting to database: ark_testnet",
+                "timestamp": 1605704110
+            }
+        ]
+    }
+}

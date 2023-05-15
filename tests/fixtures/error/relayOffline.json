@@ -1,0 +1,9 @@
+{
+  "id": "unique-request-id",
+  "jsonrpc": "2.0",
+  "error": {
+    "code": -32603,
+    "data": "RequestError: connect ECONNREFUSED 0.0.0.0:4003\n    at ClientRequest.<anonymous> (/home/ark/.local/share/ark-core/devnet/plugins/@arkecosystem/core-manager/node_modules/got/dist/source/core/index.js:962:111)\n    at Object.onceWrapper (events.js:421:26)\n    at ClientRequest.emit (events.js:326:22)\n    at ClientRequest.origin.emit (/home/ark/.local/share/ark-core/devnet/plugins/@arkecosystem/core-manager/node_modules/@szmarczak/http-timer/dist/source/index.js:43:20)\n    at Socket.socketErrorListener (_http_client.js:427:9)\n    at Socket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1144:16)",
+    "message": "connect ECONNREFUSED 0.0.0.0:4003"
+  }
+}

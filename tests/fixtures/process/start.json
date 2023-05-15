@@ -1,0 +1,8 @@
+{
+    "id": "unique-request-id",
+    "jsonrpc": "2.0",
+    "result": {
+        "name": "ark-core",
+        "status": "online"
+    }
+}

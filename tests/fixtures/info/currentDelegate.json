@@ -1,0 +1,8 @@
+{
+    "id": "unique-request-id",
+    "jsonrpc": "2.0",
+    "result": {
+        "rank": 9,
+        "username": "genesis_30"
+    }
+}

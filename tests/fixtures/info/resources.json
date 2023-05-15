@@ -1,0 +1,23 @@
+{
+    "id": "unique-request-id",
+    "jsonrpc": "2.0",
+    "result": {
+        "cpu": {
+            "total": 100,
+            "used": 12.37319548903266,
+            "available": 87.62680451096733
+        },
+        "ram": {
+            "total": 16777216,
+            "used": 16711196,
+            "available": 66020
+        },
+        "disk": {
+            "filesystem": "/dev/disk1s2",
+            "total": 488245288,
+            "used": 334654912,
+            "available": 153590376,
+            "mountpoint": "/System/Volumes/Data"
+        }
+    }
+}

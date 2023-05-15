@@ -1,0 +1,18 @@
+{
+    "id": "unique-request-id",
+    "jsonrpc": "2.0",
+    "result": [
+        {
+            "name": "1-102",
+            "size": 69
+        },
+        {
+            "name": "1-51",
+            "size": 55
+        },
+        {
+            "name": "1-52",
+            "size": 38
+        }
+    ]
+}

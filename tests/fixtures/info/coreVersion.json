@@ -1,0 +1,14 @@
+{
+    "id": "unique-request-id",
+    "jsonrpc": "2.0",
+    "result": {
+        "currentVersion": "3.0.0-next.8",
+        "installedVersion": "3.0.0-next.8",
+        "latestVersion": "4.0.0-next.0",
+        "manager": {
+            "currentVersion": "3.0.0",
+            "installedVersion": "3.0.0",
+            "latestVersion": "3.0.2"
+        }
+    }
+}

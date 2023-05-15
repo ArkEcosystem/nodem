@@ -1,0 +1,9 @@
+{
+    "error": {
+        "code": -32603,
+        "data": "Error: ERR_NO_RELAY\n    at Action.execute (/home/ark/.local/share/ark-core/mainnet/plugins/@arkecosystem/core-manager/dist/actions/info-blockchain-height.js:26:19)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async Processor.resource (/home/ark/.local/share/ark-core/mainnet/plugins/@arkecosystem/core-manager/node_modules/@hapist/json-rpc/dist/processor.js:30:28)\n    at async exports.Manager.execute (/home/ark/.local/share/ark-core/mainnet/plugins/@arkecosystem/core-manager/node_modules/@hapi/hapi/lib/toolkit.js:60:28)\n    at async Object.internals.handler (/home/ark/.local/share/ark-core/mainnet/plugins/@arkecosystem/core-manager/node_modules/@hapi/hapi/lib/handler.js:46:20)\n    at async exports.execute (/home/ark/.local/share/ark-core/mainnet/plugins/@arkecosystem/core-manager/node_modules/@hapi/hapi/lib/handler.js:31:20)\n    at async Request._lifecycle (/home/ark/.local/share/ark-core/mainnet/plugins/@arkecosystem/core-manager/node_modules/@hapi/hapi/lib/request.js:371:32)\n    at async Request._execute (/home/ark/.local/share/ark-core/mainnet/plugins/@arkecosystem/core-manager/node_modules/@hapi/hapi/lib/request.js:281:9)",
+        "message": "ERR_NO_RELAY"
+    },
+    "id": "unique-request-id",
+    "jsonrpc": "2.0"
+}

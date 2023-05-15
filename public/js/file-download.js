@@ -1,0 +1,1 @@
+window.fileDownload=()=>({save:function(e,o,d,n){let t=new Blob([o],{type:d}),c=window.document.createElement("a");c.href=window.URL.createObjectURL(t),c.download=`${e}.${n}`,document.body.appendChild(c),c.click(),document.body.removeChild(c)}});

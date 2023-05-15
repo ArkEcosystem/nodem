@@ -1,0 +1,8 @@
+{
+    "id": "unique-request-id",
+    "jsonrpc": "2.0",
+    "error": {
+        "code": 500,
+        "message": "something went wrong"
+    }
+}

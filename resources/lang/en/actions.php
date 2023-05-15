@@ -1,0 +1,36 @@
+<?php
+
+declare(strict_types=1);
+
+return [
+    'apply'              => 'Apply',
+    'reset'              => 'Reset',
+    'open_notifications' => 'Open Notifications',
+    'sign_in'            => 'Sign In',
+    'sign_up'            => 'Sign Up',
+    'logout'             => 'Logout',
+    'get_started'        => 'Get started',
+    'add_server'         => 'Add Server',
+    'add'                => 'Add',
+    'cancel'             => 'Cancel',
+    'download'           => 'Download',
+    'invite'             => 'Invite',
+    'select_an_option'   => 'Select an Option',
+    'generate'           => 'Generate',
+    'edit'               => 'Edit',
+    'save'               => 'Save',
+    'remove'             => 'Remove',
+    'done'               => 'Done',
+    'delete'             => 'Delete',
+    'update'             => 'Update',
+    'import'             => 'Import',
+    'export'             => 'Export',
+    'confirm'            => 'Confirm',
+    'back'               => 'Back',
+    'continue'           => 'Continue',
+    'retry'              => 'Retry',
+    'back_to_dashboard'  => 'Back to Dashboard',
+    'select_all'         => 'Select all',
+    'reset_filters'      => 'Reset Filters',
+    'follow_link'        => 'Follow Link',
+];

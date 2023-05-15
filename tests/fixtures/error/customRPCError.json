@@ -1,0 +1,8 @@
+{
+    "error": {
+        "code": -32069,
+        "data": "Error: Custom server error. ......",
+        "id": "unique-request-id",
+        "jsonrpc": "2.0"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "id": "unique-request-id",
+    "jsonrpc": "2.0",
+    "result": {
+        "total": 2000,
+        "limit": 10,
+        "offset": 0,
+        "data": [
+            {
+                "id": 2,
+                "process": "core",
+                "level": "debug",
+                "content": "Connection established.",
+                "timestamp": 1605705110
+            },
+            {
+                "id": 1,
+                "process": "core",
+                "level": "info",
+                "content": "Connecting to database: ark_testnet",
+                "timestamp": 1605705110
+            }
+        ]
+    }
+}
